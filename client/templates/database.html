@@ -1,0 +1,21 @@
+<html>
+    <button id="submit">Back</button>
+
+    <ul>
+        {{range $index, $element := .Groups}}
+            <h1 id="group-{{$index}}">Group: {{$element.Name}}</h1>
+        {{end}}
+    </ul>
+
+    <ul>
+        {{range $index, $element := .Entries}}
+            {{range $subelement := $element.Values}}
+                {{if eq $subelement.Key "Title"}}
+                    <h1 id="entry-{{$index}}">Item: {{$subelement.Value.Content}}</h1>
+                {{end}}
+            {{end}}
+        {{end}}
+    </ul>
+
+    <button id="submit">Submit</button>
+</html>

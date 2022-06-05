@@ -1,0 +1,8 @@
+github.com/ChristianHering/GoEssentials v0.0.0-20220428134021-765e882c49da h1:be3LyPWI27iMJCu9VUmDQsPhCt3nPrBOjRyBaalouEI=
+github.com/ChristianHering/GoEssentials v0.0.0-20220428134021-765e882c49da/go.mod h1:/RnvALdgqpsMa844DOjxeWK95Uo+twLfYGp0NEVfuJs=
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/justinas/alice v1.2.0 h1:+MHSA/vccVCF4Uq37S42jwlkvI2Xzl7zTPCN5BnZNVo=
+github.com/justinas/alice v1.2.0/go.mod h1:fN5HRH/reO/zrUflLfTN43t3vXvKzvZIENsNEe7i7qA=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=

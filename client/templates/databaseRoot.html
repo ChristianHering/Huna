@@ -1,0 +1,17 @@
+<html>
+    <button id="submit" disabled>Back</button>
+
+    <ul>
+        {{range $index, $element := .Groups}}
+            <h1 id="group-{{$index}}">Group: {{$element.Name}}</h1>
+        {{end}}
+    </ul>
+
+    <ul>
+        {{range $index, $element := .DeletedObjects}}
+            <h1 id="deleted-{{$index}}">Trash: {{$element.XMLName}}</h1>
+        {{end}}
+    </ul>
+
+    <button id="submit">Submit root</button>
+</html>
